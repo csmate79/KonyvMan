@@ -11,8 +11,8 @@ public class PreferencesTest {
     private Preferences prefTest = new Preferences();
 
     /**
-     * Valami
-     * @throws Exception
+     * Hogy mi legyen a felhasznló és a jelszó.
+     * @throws Exception - kivételt dob.
      */
     @Before
     public void setUp() throws Exception {
@@ -21,8 +21,8 @@ public class PreferencesTest {
     }
 
     /**
-     * Valami
-     * @throws Exception
+     * Teszteli a belépést az alkalamzásba. Ez a teszt át fog menni.
+     * @throws Exception - kivételt dob.
      */
     @Test
     public void mid() throws Exception {
@@ -31,8 +31,8 @@ public class PreferencesTest {
     }
 
     /**
-     * Valami
-     * @throws Exception
+     * Teszteli a belépést az alkalamzásba. Ez a teszt nem fog átmenni.
+     * @throws Exception - kivételt dob.
      */
     @Test
     public void mid2() throws Exception {
@@ -41,8 +41,8 @@ public class PreferencesTest {
     }
 
     /**
-     * Valami
-     * @throws Exception
+     * Teszteli a belépést az alkalamzásba. Ez a teszt nem fog átmenni.
+     * @throws Exception - kivételt dob.
      */
     @Test
     public void mid3() throws Exception {
