@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  *
  * @author Csicsek Máté
  *
- * Ebben a preferencben adjuk meg a változókat, és hozzuk létre a json txt-t.
+ * Ebben a preferencben adjuk meg a változókat, és hozzuk létre a json-t.
  */
 public class Preferences {
     private static final String CONFIG_FILE = "config.json";
@@ -77,7 +77,7 @@ public class Preferences {
         try {
             Preferences preference = new Preferences();
             Gson gson = new Gson();
-            writer = new FileWriter(CONFIG_FILE); //Itt hozza létre a config.txt-t
+            writer = new FileWriter(CONFIG_FILE); //Itt hozza létre a config.json-t
             gson.toJson(preference,writer);
                     } catch (IOException ex) {
             Logger.getLogger(Preferences.class.getName()).log(Level.SEVERE, null, ex);
