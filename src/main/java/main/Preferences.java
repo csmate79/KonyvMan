@@ -20,7 +20,7 @@ import java.util.logging.Logger;
  * Ebben a preferencben adjuk meg a változókat, és hozzuk létre a json txt-t.
  */
 public class Preferences {
-    private static final String CONFIG_FILE = "config.txt";
+    private static final String CONFIG_FILE = "config.json";
 
     private int nDaysWithoutFine;
     private float finePerDay;
