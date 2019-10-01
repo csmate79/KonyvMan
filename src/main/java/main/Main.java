@@ -18,7 +18,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Main extends Application {
-
+//valami
     /**
      * Itt indul az egész app.
      * Elsőnek a belepes.fxml fájlra ugrik.
